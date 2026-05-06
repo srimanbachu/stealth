@@ -9,7 +9,7 @@ export default function SignInPage() {
             href="/"
             className="text-xs uppercase tracking-[0.22em] text-(--muted) hover:text-(--fg)"
           >
-            ← Mentari
+            ← helpmeman
           </Link>
         </div>
 

@@ -142,7 +142,7 @@ export function Pricing() {
             <li>Refundable if mentor cancels</li>
           </ul>
           <span className="uppercase tracking-[0.22em]">
-            © Mentari, {new Date().getFullYear()}
+            © HelpMeMan {new Date().getFullYear()}
           </span>
         </div>
       </div>
