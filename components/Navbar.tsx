@@ -34,7 +34,7 @@ export function Navbar() {
           className="font-display text-2xl tracking-tight cursor-pointer"
           aria-label="Mentari home"
         >
-          Mentari<span className="text-(--muted)">.</span>
+          HelpMeMan<span className="text-(--muted)">.</span>
         </button>
 
         <div className="hidden md:flex items-center gap-10 text-sm">
