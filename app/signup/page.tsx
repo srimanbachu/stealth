@@ -9,7 +9,7 @@ export default function SignUpPage() {
             href="/"
             className="text-xs uppercase tracking-[0.22em] text-(--muted) hover:text-(--fg)"
           >
-            ← helpmeman
+            ← HelpMeMan
           </Link>
         </div>
 
@@ -66,7 +66,7 @@ export default function SignUpPage() {
         </form>
 
         <p className="text-sm text-(--muted)">
-          Already on "HMM"?{" "}
+          Already on "HelpMeMan"?{" "}
           <Link href="/signin" className="text-(--fg) underline-offset-4 hover:underline">
             Sign in
           </Link>

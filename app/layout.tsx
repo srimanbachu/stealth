@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Geist, Fraunces } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/ThemeProvider";
-import { Navbar } from "@/components/Navbar";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -16,7 +15,7 @@ const fraunces = Fraunces({
 });
 
 export const metadata: Metadata = {
-  title: "Mentari — Mentorship from people who've done it",
+  title: "HelpMeMan — Mentorship from people who've done it",
   description:
     "A premium mentorship platform connecting students with verified mentors from IITs, AIIMS, NLUs, FAANG, and elite founders.",
 };
@@ -32,7 +31,6 @@ export default function RootLayout({
     >
       <body>
         <ThemeProvider>
-          <Navbar />
           {children}
         </ThemeProvider>
       </body>

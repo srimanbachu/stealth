@@ -32,7 +32,7 @@ export function Navbar() {
           type="button"
           onClick={() => scrollToId("hero")}
           className="font-display text-2xl tracking-tight cursor-pointer"
-          aria-label="Mentari home"
+          aria-label="HelpMeMan home"
         >
           HelpMeMan<span className="text-(--muted)">.</span>
         </button>

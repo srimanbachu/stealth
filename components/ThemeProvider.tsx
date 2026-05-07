@@ -11,7 +11,7 @@ import {
 export type Theme = "light" | "yellow" | "dark";
 export const THEMES: Theme[] = ["light", "yellow", "dark"];
 
-const STORAGE_KEY = "mentari.theme";
+const STORAGE_KEY = "helpmeman.theme";
 
 type Ctx = { theme: Theme; setTheme: (t: Theme) => void };
 const ThemeCtx = createContext<Ctx | null>(null);

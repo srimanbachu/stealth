@@ -2,7 +2,7 @@ const pillars = [
   {
     k: "01",
     t: "Real mentors, not influencers",
-    d: "Every mentor on Mentari has actually walked the path — placements, residencies, clerkships, founding teams.",
+    d: "Every mentor on HelpMeMan has actually walked the path — placements, residencies, clerkships, founding teams.",
   },
   {
     k: "02",
@@ -26,7 +26,7 @@ export function About() {
     <div className="h-full w-full flex flex-col justify-between px-6 sm:px-12 lg:px-24 pt-28 pb-12">
       <div className="flex items-center justify-between text-xs uppercase tracking-[0.22em] text-(--muted)">
         <span>Chapter 02 — About</span>
-        <span className="hidden sm:inline">Why Mentari exists</span>
+        <span className="hidden sm:inline">Why HelpMeMan exists</span>
         <span>002</span>
       </div>
 
@@ -48,7 +48,7 @@ export function About() {
             people who haven&rsquo;t done the thing.
           </p>
           <p className="text-base sm:text-lg leading-relaxed">
-            We built Mentari so you can skip the noise and talk to someone who
+            We built HelpMeMan so you can skip the noise and talk to someone who
             already made the decision you&rsquo;re trying to make — without
             paying coaching-class money.
           </p>
